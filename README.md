@@ -11,8 +11,8 @@ Edit ~/.bashrc (or ~/.zshrc if using zsh)
 
 To end of file, append:
 
-> cd path/to/WeatherApp-Linux/
-> ./temperature.sh
-> cd ~
+> cd path/to/WeatherApp-Linux/;
+> ./temperature.sh;
+> cd ~;
 
 This setup makes the app run automatically every time opening the terminal
