@@ -17,7 +17,7 @@ To end of file, append:
 
 This setup makes the app run automatically every time opening the terminal
 
-### To change location (default is Towson, MD):
+### To change location (default Towson, MD):
 
 Edit weather.config, substituting latitude and longitude values as desired 
 These may easily be acquired via Google Maps
