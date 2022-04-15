@@ -16,3 +16,10 @@ To end of file, append:
 > cd ~;
 
 This setup makes the app run automatically every time opening the terminal
+
+### To change location (default is Towson, MD):
+
+Edit weather.config, substituting latitude and longitude values as desired 
+These may easily be acquired via Google Maps
+
+Note: Tokens in .config file must be sepererated by spaces
