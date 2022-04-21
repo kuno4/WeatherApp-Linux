@@ -13,14 +13,10 @@ public class config {
         String longitude = "";
         String key = "";
 
-        for (int i = 0; i < 3; i++)
-            latitude = input.next();
-
-        for (int i = 0; i < 3; i++)
-            longitude = input.next();
-
-        for (int i = 0; i < 3; i++)
-            key = input.next();
+        latitude = input.nextLine();
+        latitude = input.next();
+	    longitude = input.next();
+        key = input.next();
 
         FileWriter latw = new FileWriter("lat.txt");
         FileWriter lonw = new FileWriter("lon.txt");
