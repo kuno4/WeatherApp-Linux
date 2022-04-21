@@ -15,11 +15,8 @@ To end of file, append:
 > ./temperature.sh;
 > cd ~;
 
-This setup makes the app run automatically every time opening the terminal
+This setup makes the app run automatically every time opening the terminal.
 
 ### To change location (default Towson, MD):
 
-Edit weather.config, substituting latitude and longitude values as desired 
-These may easily be acquired via Google Maps
-
-Note: Tokens in .config file must be sepererated by spaces
+Run location.py and type in the desired city name. If found in the database the location will be set to that city.
