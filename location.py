@@ -19,18 +19,28 @@ coordinates = {
 }
 
 city = input("Which city would you like to set the location to?\n")
-file = open("weather.config", "r")
 
-lat = file.readline()
-lat = file.readline()
-lon = file.readline()
-api = file.readline()
+try:
 
-file.close()
-os.remove("weather.config")
+    temp = coordinates[city][0]
 
-out = open("weather.config", "w")
-out.write(city + "\n")
-out.write(coordinates[city][0] + "\n")
-out.write(coordinates[city][1] + "\n")
-out.write(api)
+    file = open("weather.config", "r")
+
+    lat = file.readline()
+    lat = file.readline()
+    lon = file.readline()
+    api = file.readline()
+
+    file.close()
+    os.remove("weather.config")
+
+    out = open("weather.config", "w")
+    out.write(city + "\n")
+    out.write(coordinates[city][0] + "\n")
+    out.write(coordinates[city][1] + "\n")
+    out.write(api)
+
+    print("Location successfully changed")
+
+except:
+    print("The city you entered was not found in the database")
