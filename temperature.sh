@@ -20,10 +20,11 @@ if [ $online -eq 0 ]; then
     
     city=$(head -1 weather.config)
 
-    echo "Current weather in $city:"
+    echo "\nCurrent weather in $city:"
 
     java temperature
     java weather
+    java humidity
     java minmax
     
     rm *.txt

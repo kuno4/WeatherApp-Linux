@@ -12,16 +12,19 @@ public class weather {
 	String data = input.nextLine();
 	//System.out.println(data);
 
-	int lastIndex = data.indexOf("main");
+	int lastIndex = data.indexOf("description");
 	//System.out.println(lastIndex);
 
 
-	String temp = data.substring(lastIndex + 7, lastIndex + 20);
+	String temp = data.substring(lastIndex + 14, lastIndex + 40);
 	//System.out.println(temp);
 
 	//temp = temp.substring(0, 5);
-	System.out.println(temp.substring(0, temp.indexOf("\"")));
-	
+	temp = temp.substring(0, temp.indexOf("\""));
+	temp = temp.substring(0, 1).toUpperCase() + temp.substring(1);
+
+	System.out.println(temp);
+
 	input.close();	
     }
 }
