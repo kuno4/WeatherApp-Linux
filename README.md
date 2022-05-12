@@ -1,7 +1,7 @@
 # WeatherApp-Linux
 ### Terminal application that downloads and displays live weather data, by Dominic Oertel
 
-Required components: Java 8+, Python 2+ (recommended), Linux Operating System
+Required components: Java 8+, Python 2+ (recommended), BASH shell
 
 ### To run the app in your terminal, simply run temerapture.sh
 
