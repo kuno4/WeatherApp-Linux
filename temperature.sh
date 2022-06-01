@@ -13,6 +13,7 @@ online=$?
 if [ $online -eq 0 ]; then
     
     curl "https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&appid=$api" > temp.txt -s
+    curl "https://api.openweathermap.org/data/2.5/air_pollution?lat=$lat&lon=$lon&appid=$api" > air.txt -s
     
     rm lat.txt
     rm lon.txt
