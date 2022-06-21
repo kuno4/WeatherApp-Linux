@@ -1,5 +1,5 @@
 # WeatherApp-Linux
-### Terminal application that downloads and displays live weather data, by Dominic Oertel
+### Terminal application that downloads and displays live atmospheric data for current location, by Dominic Oertel
 
 Required components: Java 8+, Python 2+ (recommended), BASH shell
 
