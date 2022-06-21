@@ -24,7 +24,7 @@ try:
 
     temp = coordinates[city][0]
 
-    file = open("weather.config", "r")
+    file = open("/home/kuno4/Code/BASH/weatherdata/weather.config", "r")
 
     lat = file.readline()
     lat = file.readline()
@@ -32,9 +32,9 @@ try:
     api = file.readline()
 
     file.close()
-    os.remove("weather.config")
+    os.remove("/home/kuno4/Code/BASH/weatherdata/weather.config")
 
-    out = open("weather.config", "w")
+    out = open("/home/kuno4/Code/BASH/weatherdata/weather.config", "w")
     out.write(city + "\n")
     out.write(coordinates[city][0] + "\n")
     out.write(coordinates[city][1] + "\n")

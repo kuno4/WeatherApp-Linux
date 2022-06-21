@@ -27,7 +27,10 @@ if [ $online -eq 0 ]; then
     java weather
     java humidity
     java minmax
+
+    echo "\nAir pollution levels:\n"
     
+    java air
     rm *.txt
     rm *.class
 
