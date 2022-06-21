@@ -17,8 +17,8 @@ public class minmax {
 	String mintemp = data.substring(min + 10, min + 20);
     String maxtemp = data.substring(max + 10, max + 20);
 	//System.out.println(temp);
-	mintemp = mintemp.substring(0, mintemp.indexOf("."));
-    maxtemp = maxtemp.substring(0, maxtemp.indexOf("."));
+	mintemp = mintemp.substring(0, mintemp.indexOf(","));
+    maxtemp = maxtemp.substring(0, maxtemp.indexOf(","));
 
     double mint = Double.valueOf(mintemp);
     double maxt = Double.valueOf(maxtemp);
