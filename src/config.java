@@ -8,6 +8,7 @@ public class config {
 
     public static void main(String[] args) throws IOException {
 
+        //longitute, latitude, and api values derived from config
         File file = new File("weather.config");
         Scanner input = new Scanner(file);
         String latitude = "";
