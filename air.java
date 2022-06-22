@@ -29,11 +29,11 @@ public class air {
         sulfordiox = sulfordiox.substring(0, sulfordiox.indexOf(","));
 	    //temp = temp.substring(0, temp.indexOf("."));
 
-        System.out.println("O3: " + ozone + " ppb   \tSafe level: 70 ppb");
-        System.out.println("PM2.5: " + part25 + " µg/m3\tSafe level: 12 µg/m3");
-        System.out.println("PM10: " + part10 + " µg/m3\tSafe level: 150 µg/m3");
-        System.out.println("NO2: " + nitrodiox + " ppb   \tSafe level: 53 ppb");
-        System.out.println("SO2: " + sulfordiox + " ppb     \tSafe level: 75 ppb");
+        System.out.println("O3: \t" + ozone + " µg/m3\tSafe level: 135");
+        System.out.println("PM2.5: \t" + part25 + " µg/m3\tSafe level: 12");
+        System.out.println("PM10: \t" + part10 + " µg/m3\tSafe level: 20");
+        System.out.println("NO2: \t" + nitrodiox + " µg/m3\tSafe level: 100");
+        System.out.println("SO2: \t" + sulfordiox + " µg/m3\tSafe level: 150");
         input.close();
     }
 
